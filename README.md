@@ -10,7 +10,7 @@ uv add flask
 uv run flask --app app run --debug --host 127.0.0.1 --port 8000
 ```
 
-Open `http://127.0.0.1:8000`.
+Open `http://127.0.0.1:5000`.
 
 Features:
 - Select one of: cat, dog, elephant → shows local image
