@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flask: Animal & Upload App</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+</head>
+<body>
+  <h1>Animal Selector and File Uploader</h1>
+  <div class="container">
+    <div class="box" id="animal-box">
+      <h2>Select an animal</h2>
+      <div class="checkboxes">
+        <label><input type="checkbox" name="animal" value="cat"> Cat</label>
+        <label><input type="checkbox" name="animal" value="dog"> Dog</label>
+        <label><input type="checkbox" name="animal" value="elephant"> Elephant</label>
+      </div>
+      <div class="preview">
+        <img id="animal-image" alt="Selected animal" style="display:none;" />
+      </div>
+    </div>
+
+    <div class="box" id="upload-box">
+      <h2>Upload a file</h2>
+      <input type="file" id="file-input" />
+      <button id="upload-button">Upload</button>
+      <pre id="upload-result"></pre>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+

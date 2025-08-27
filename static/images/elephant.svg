@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="eleBody" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#90a4ae"/>
+      <stop offset="100%" stop-color="#546e7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" fill="#ffffff"/>
+  <!-- Body -->
+  <ellipse cx="150" cy="150" rx="85" ry="58" fill="url(#eleBody)"/>
+  <!-- Head -->
+  <circle cx="110" cy="120" r="38" fill="#78909c"/>
+  <!-- Ear -->
+  <ellipse cx="88" cy="122" rx="26" ry="22" fill="#b0bec5"/>
+  <!-- Eye -->
+  <circle cx="124" cy="116" r="5" fill="#212121"/>
+  <circle cx="123" cy="115" r="2" fill="#ffffff"/>
+  <!-- Trunk -->
+  <path d="M134 142 q34 16 10 50 q-16 22 -36 6" fill="none" stroke="#78909c" stroke-width="12" stroke-linecap="round"/>
+  <!-- Legs -->
+  <rect x="125" y="180" width="16" height="32" rx="4" fill="#78909c"/>
+  <rect x="170" y="180" width="16" height="32" rx="4" fill="#78909c"/>
+</svg>
+

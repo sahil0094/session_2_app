@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="dogBody" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8d6e63"/>
+      <stop offset="100%" stop-color="#5d4037"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" fill="#ffffff"/>
+  <!-- Dog body -->
+  <ellipse cx="150" cy="150" rx="80" ry="50" fill="url(#dogBody)"/>
+  <!-- Chest -->
+  <ellipse cx="120" cy="160" rx="26" ry="18" fill="#d7ccc8"/>
+  <!-- Head -->
+  <circle cx="90" cy="120" r="34" fill="#6d4c41"/>
+  <!-- Ears -->
+  <path d="M70 96 q-24 18 -4 36 q20 -6 20 -18 z" fill="#5d4037"/>
+  <path d="M110 96 q24 18 4 36 q-20 -6 -20 -18 z" fill="#5d4037"/>
+  <!-- Eyes -->
+  <circle cx="82" cy="118" r="5" fill="#212121"/>
+  <circle cx="102" cy="118" r="5" fill="#212121"/>
+  <circle cx="83" cy="117" r="2" fill="#ffffff"/>
+  <circle cx="103" cy="117" r="2" fill="#ffffff"/>
+  <!-- Snout -->
+  <ellipse cx="92" cy="132" rx="16" ry="12" fill="#bcaaa4"/>
+  <circle cx="92" cy="134" r="4" fill="#212121"/>
+  <path d="M84 138 q8 6 16 0" stroke="#5d4037" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Legs -->
+  <rect x="122" y="182" width="14" height="30" rx="4" fill="#6d4c41"/>
+  <rect x="172" y="182" width="14" height="30" rx="4" fill="#6d4c41"/>
+  <!-- Tail -->
+  <path d="M210 142 q34 -10 18 24 q-8 16 -22 2" fill="none" stroke="#6d4c41" stroke-width="10" stroke-linecap="round"/>
+  <!-- Collar -->
+  <rect x="72" y="132" width="38" height="8" rx="4" fill="#e53935"/>
+</svg>
+

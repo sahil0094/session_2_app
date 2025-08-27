@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#fff"/>
+  <!-- Simple cat silhouette -->
+  <g fill="#333">
+    <!-- head -->
+    <circle cx="80" cy="80" r="22"/>
+    <!-- ears -->
+    <polygon points="66,66 76,54 78,72"/>
+    <polygon points="94,66 84,54 82,72"/>
+    <!-- eyes -->
+    <circle cx="73" cy="80" r="3" fill="#fff"/>
+    <circle cx="87" cy="80" r="3" fill="#fff"/>
+    <!-- body -->
+    <ellipse cx="120" cy="110" rx="45" ry="32"/>
+    <!-- legs -->
+    <rect x="105" y="132" width="10" height="20" rx="3"/>
+    <rect x="130" y="132" width="10" height="20" rx="3"/>
+    <!-- tail -->
+    <path d="M155 110 q25 -10 20 18 q-3 16 -15 6" fill="none" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
+
